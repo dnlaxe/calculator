@@ -85,7 +85,7 @@ function evaluate(preAnswer) {
     if (result > 999999999 || result < -999999999) {
       return "TOO BIG";
     }
-    if (result < 0.0000001 && result > -0.000001) {
+    if (result < 0.0000001 && result > -0.000001 && result !== 0) {
       return "TOO SMA";
     }
     return result;
