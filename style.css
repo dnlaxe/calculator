@@ -27,6 +27,7 @@ body {
     align-items: center;
     color: rgb(20, 34, 55);
     background-color: white;
+    zoom: 50%;
 }
 
 .calculator {
